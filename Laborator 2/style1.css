@@ -1,0 +1,36 @@
+.table_div{
+    margin: auto;
+    width: 60%;
+}
+
+#header{
+    text-align: center;
+    margin: 20px 0;
+}
+#studenti{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10%;
+}
+
+#studenti td, #studenti th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  
+#studenti th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #0483aa;
+    color: white;
+  }
+
+  #studenti td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(119, 119, 119);
+    color: white;
+  }

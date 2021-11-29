@@ -1,0 +1,67 @@
+<!-- Utilizarea tabelelor -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Laborator 3/styles/main.css">
+    <link rel="stylesheet" href="/Laborator 3/styles/style1.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul  class="navbar">
+        <li><a class="active" href="page1.html">Lista Studentilor</a></li>
+        <li><a href="page2.html">Lista Facultatilor</a></li>
+        <li><a href="page3.html">Imagini UTM</a></li>
+        <li><a href="#">Siteul UTM</a></li>
+    </ul>
+    <h1 id="header">Lista studentilor</h1>
+    <hr>
+    <div class="table_div">
+        <table id="studenti">
+            <tr>
+                <th>Nume Prenume</th>
+                <th>Anul nasterii</th>
+                <th>Facultatea</th>
+                <th>Grupa</th>
+                <th>Nota Medie:</th>
+            </tr>
+            <tr>
+                <td>Mutu Stefan</td>
+                <td>1998</td>
+                <td>FCIM</td>
+                <td>IA</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Ion Ionescu</td>
+                <td>2000</td>
+                <td>FCIM</td>
+                <td>Fi</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Petru Petrache</td>
+                <td>1999</td>
+                <td>FET</td>
+                <td>SSET</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Alexandru Caraus</td>
+                <td>1999</td>
+                <td>FCIM</td>
+                <td>SI</td>
+                <td>4</td>
+            </tr>
+        </table>
+        <button onclick="biggestGrade()" id="btn">RAND</button>
+        <div id="rezultat"></div>
+    </div>
+    <script src="/Laborator 3/scripts/script1.js"></script>
+
+</body>
+
+</html>

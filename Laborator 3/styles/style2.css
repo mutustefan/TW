@@ -1,0 +1,21 @@
+
+#list_div{
+    margin: auto;
+    width: 60%;
+    margin-top: 5%;
+}
+
+#facultati {
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+#facultati p{
+    margin: 10px;
+    font-weight: initial;
+}
+
+#header{
+    text-align: center;
+    margin: 20px 0;
+}

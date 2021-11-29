@@ -1,0 +1,46 @@
+#header{
+    text-align: center;
+    margin: 20px 0;
+}
+
+#img_div{
+    margin: auto;
+    width: 60%;
+    /* margin-top: 3%; */
+}
+
+#img_div img{
+    width: 600px;
+}
+
+#img_div p{
+    font-style: italic;
+}
+
+.img{
+    position: absolute;
+    display: none;
+}
+
+#buttons{
+    position: absolute;
+    top: 600px;
+    left: 350px;
+}
+
+#buttons button{
+    background-color: #0483aa;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#img1{
+    display: block;
+}

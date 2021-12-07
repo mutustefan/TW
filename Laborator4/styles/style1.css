@@ -1,0 +1,73 @@
+.table_div{
+    margin: auto;
+    width: 60%;
+}
+
+#header{
+    text-align: center;
+    margin: 20px 0;
+}
+#studenti{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10%;
+}
+
+#studenti td, #studenti th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  
+#studenti th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #0483aa;
+    color: white;
+  }
+
+  #studenti td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(119, 119, 119);
+    color: white;
+  }
+
+#btn{
+  background-color: #0483aa;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#rezultat{
+  display: inline-block;
+  font-size: 30px;
+  padding-top: 10px;
+  margin-left: 10%;
+}
+
+#addstudent input{
+  height: 40px;
+  margin: 0;
+  width: 120px;
+  font-size: 20px;
+}
+
+#addbtn{
+  background-color: #0483aa;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+#addStudent .error{
+  color: #ff0000;
+}
